@@ -72,3 +72,6 @@ font-family: 'Orbitron', sans-serif;
 #3ddc84
 #2fa866
 #063d1e
+
+
+criar qr code do site :https://br.qr-code-generator.com/
