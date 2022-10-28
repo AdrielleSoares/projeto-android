@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+body {
+    background: #83e1ad;
+    
+    
+    
+}
+header {
+    text-align: center;
+    font-size: 18px;
+    background:linear-gradient(#83e1ad,#063d1e);
+    padding: 10px;
+    text-align: bold;
+   
+    
+}
+header h1{
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: solid;
+    color: white;
+   
+}
+header p{
+    padding: 10px; 
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.menu-navegaçao {
+    display: block;
+    background:#063d1e;
+    
+    
+}
+.menu-navegaçao li {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-style: normal;
+    
+    
+}
+.menu-navegaçao li a{
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+
+}
+.corpo-pagina {
+    background: white;
+    text-align: center;
+    margin: 0px 90px 8px 90px;
+    padding: 20px;
+   
+    
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #063d1e;
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align:left;
+    padding: 10px;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    
+}
+main img{
+    width: 100%;
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    position: relative;
+    background-color: #226740;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background: #8ed3ec;
+    border-radius: 10px;
+}
+aside h3 {
+    background: #063d1e;
+    text-align: start;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+aside ul{
+    list-style-position:inside;
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    text-align: start;
+    padding: 8px;
+    text-decoration:underline ;
+    
+}
+.final {
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background: #8ed3ec;
+}
+
+.rodape {
+    text-align: center;
+    background: #063d1e;
+    font-size: 20px ;
+    color:aliceblue;
+}
+.rodape a {
+    color:chartreuse;
+    
+}
